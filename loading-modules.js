@@ -10,7 +10,7 @@
 		};
 	
 
-	$.fn.loadingmodule = function(options){
+	$.fn.loadingmodules = function(options){
 		
 		if(typeof options === 'string'){
 			switch(options){

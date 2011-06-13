@@ -43,23 +43,23 @@
 				var settingsObject = {
 					loadingImage : './loading.gif'
 				}
-				$('#someModule1').loadingmodule(settingsObject);
-				$('#someModule2').loadingmodule(settingsObject);
-				$('#someModule3').loadingmodule(settingsObject);
-				$('#someModule4').loadingmodule(settingsObject);
+				$('#someModule1').loadingmodules(settingsObject);
+				$('#someModule2').loadingmodules(settingsObject);
+				$('#someModule3').loadingmodules(settingsObject);
+				$('#someModule4').loadingmodules(settingsObject);
 				
 				/* Use setTimeout as if we are waiting for "Something" to happen. */
 				setTimeout(function(){
-					$('#someModule1').loadingmodule('complete').append('<p>I am done</p>');
+					$('#someModule1').loadingmodules('complete').append('<p>I am done</p>');
 				}, 1000);
 				setTimeout(function(){
-					$('#someModule2').loadingmodule('complete').append('<p>I am done</p>');
+					$('#someModule2').loadingmodules('complete').append('<p>I am done</p>');
 				}, 3000);
 				setTimeout(function(){
-					$('#someModule3').loadingmodule('complete').append('<p>I am done</p>');
+					$('#someModule3').loadingmodules('complete').append('<p>I am done</p>');
 				}, 5000);
 				setTimeout(function(){
-					$('#someModule4').loadingmodule('complete').append('<p>I am done</p>');
+					$('#someModule4').loadingmodules('complete').append('<p>I am done</p>');
 				}, 7000);
 				
 			})(jQuery);
