@@ -14,4 +14,4 @@ A jQuery Plugin that displays a loading image of your choice.
 				
 
 ###*Note
-Your "#domElement" needs to have layout with a set with and height.
+Your "#domElement" needs to have layout with a set width and height.
